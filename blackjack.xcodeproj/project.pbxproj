@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74153D421E834A4A009BFC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D411E834A4A009BFC09 /* AppDelegate.swift */; };
+		74153D481E834A4A009BFC09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D471E834A4A009BFC09 /* GameScene.swift */; };
+		74153D4A1E834A4A009BFC09 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D491E834A4A009BFC09 /* GameViewController.swift */; };
+		74153D4D1E834A4A009BFC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74153D4B1E834A4A009BFC09 /* Main.storyboard */; };
+		74153D4F1E834A4A009BFC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74153D4E1E834A4A009BFC09 /* Assets.xcassets */; };
+		74153D521E834A4A009BFC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74153D501E834A4A009BFC09 /* LaunchScreen.storyboard */; };
+		74153D641E847D86009BFC09 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D591E847D86009BFC09 /* Bank.swift */; };
+		74153D651E847D86009BFC09 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D5A1E847D86009BFC09 /* Card.swift */; };
+		74153D661E847D86009BFC09 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D5B1E847D86009BFC09 /* Dealer.swift */; };
+		74153D671E847D86009BFC09 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D5C1E847D86009BFC09 /* Deck.swift */; };
+		74153D681E847D86009BFC09 /* GenericPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D5D1E847D86009BFC09 /* GenericPlayer.swift */; };
+		74153D691E847D86009BFC09 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D5E1E847D86009BFC09 /* Hand.swift */; };
+		74153D6A1E847D86009BFC09 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D5F1E847D86009BFC09 /* Money.swift */; };
+		74153D6B1E847D86009BFC09 /* MoneyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D601E847D86009BFC09 /* MoneyValue.swift */; };
+		74153D6C1E847D86009BFC09 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D611E847D86009BFC09 /* Player.swift */; };
+		74153D6D1E847D86009BFC09 /* Pot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D621E847D86009BFC09 /* Pot.swift */; };
+		74153D6E1E847D86009BFC09 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74153D631E847D86009BFC09 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74153D3E1E834A4A009BFC09 /* blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blackjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74153D411E834A4A009BFC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74153D471E834A4A009BFC09 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		74153D491E834A4A009BFC09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		74153D4C1E834A4A009BFC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74153D4E1E834A4A009BFC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74153D511E834A4A009BFC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74153D531E834A4A009BFC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74153D591E847D86009BFC09 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		74153D5A1E847D86009BFC09 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		74153D5B1E847D86009BFC09 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		74153D5C1E847D86009BFC09 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		74153D5D1E847D86009BFC09 /* GenericPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPlayer.swift; sourceTree = "<group>"; };
+		74153D5E1E847D86009BFC09 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		74153D5F1E847D86009BFC09 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		74153D601E847D86009BFC09 /* MoneyValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyValue.swift; sourceTree = "<group>"; };
+		74153D611E847D86009BFC09 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		74153D621E847D86009BFC09 /* Pot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pot.swift; sourceTree = "<group>"; };
+		74153D631E847D86009BFC09 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74153D3B1E834A4A009BFC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74153D351E834A4A009BFC09 = {
+			isa = PBXGroup;
+			children = (
+				74153D401E834A4A009BFC09 /* blackjack */,
+				74153D3F1E834A4A009BFC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74153D3F1E834A4A009BFC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74153D3E1E834A4A009BFC09 /* blackjack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74153D401E834A4A009BFC09 /* blackjack */ = {
+			isa = PBXGroup;
+			children = (
+				74153D591E847D86009BFC09 /* Bank.swift */,
+				74153D5A1E847D86009BFC09 /* Card.swift */,
+				74153D5B1E847D86009BFC09 /* Dealer.swift */,
+				74153D5C1E847D86009BFC09 /* Deck.swift */,
+				74153D5D1E847D86009BFC09 /* GenericPlayer.swift */,
+				74153D5E1E847D86009BFC09 /* Hand.swift */,
+				74153D5F1E847D86009BFC09 /* Money.swift */,
+				74153D601E847D86009BFC09 /* MoneyValue.swift */,
+				74153D611E847D86009BFC09 /* Player.swift */,
+				74153D621E847D86009BFC09 /* Pot.swift */,
+				74153D631E847D86009BFC09 /* Utilities.swift */,
+				74153D411E834A4A009BFC09 /* AppDelegate.swift */,
+				74153D471E834A4A009BFC09 /* GameScene.swift */,
+				74153D491E834A4A009BFC09 /* GameViewController.swift */,
+				74153D4B1E834A4A009BFC09 /* Main.storyboard */,
+				74153D4E1E834A4A009BFC09 /* Assets.xcassets */,
+				74153D501E834A4A009BFC09 /* LaunchScreen.storyboard */,
+				74153D531E834A4A009BFC09 /* Info.plist */,
+			);
+			path = blackjack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74153D3D1E834A4A009BFC09 /* blackjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74153D561E834A4A009BFC09 /* Build configuration list for PBXNativeTarget "blackjack" */;
+			buildPhases = (
+				74153D3A1E834A4A009BFC09 /* Sources */,
+				74153D3B1E834A4A009BFC09 /* Frameworks */,
+				74153D3C1E834A4A009BFC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blackjack;
+			productName = blackjack;
+			productReference = 74153D3E1E834A4A009BFC09 /* blackjack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74153D361E834A4A009BFC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "James Tyner";
+				TargetAttributes = {
+					74153D3D1E834A4A009BFC09 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74153D391E834A4A009BFC09 /* Build configuration list for PBXProject "blackjack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74153D351E834A4A009BFC09;
+			productRefGroup = 74153D3F1E834A4A009BFC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74153D3D1E834A4A009BFC09 /* blackjack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74153D3C1E834A4A009BFC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74153D4D1E834A4A009BFC09 /* Main.storyboard in Resources */,
+				74153D4F1E834A4A009BFC09 /* Assets.xcassets in Resources */,
+				74153D521E834A4A009BFC09 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74153D3A1E834A4A009BFC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74153D681E847D86009BFC09 /* GenericPlayer.swift in Sources */,
+				74153D671E847D86009BFC09 /* Deck.swift in Sources */,
+				74153D6E1E847D86009BFC09 /* Utilities.swift in Sources */,
+				74153D6B1E847D86009BFC09 /* MoneyValue.swift in Sources */,
+				74153D481E834A4A009BFC09 /* GameScene.swift in Sources */,
+				74153D6C1E847D86009BFC09 /* Player.swift in Sources */,
+				74153D641E847D86009BFC09 /* Bank.swift in Sources */,
+				74153D661E847D86009BFC09 /* Dealer.swift in Sources */,
+				74153D6D1E847D86009BFC09 /* Pot.swift in Sources */,
+				74153D691E847D86009BFC09 /* Hand.swift in Sources */,
+				74153D6A1E847D86009BFC09 /* Money.swift in Sources */,
+				74153D651E847D86009BFC09 /* Card.swift in Sources */,
+				74153D4A1E834A4A009BFC09 /* GameViewController.swift in Sources */,
+				74153D421E834A4A009BFC09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74153D4B1E834A4A009BFC09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74153D4C1E834A4A009BFC09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74153D501E834A4A009BFC09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74153D511E834A4A009BFC09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74153D541E834A4A009BFC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		74153D551E834A4A009BFC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74153D571E834A4A009BFC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = blackjack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiletuts.blackjack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74153D581E834A4A009BFC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = blackjack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiletuts.blackjack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74153D391E834A4A009BFC09 /* Build configuration list for PBXProject "blackjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74153D541E834A4A009BFC09 /* Debug */,
+				74153D551E834A4A009BFC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74153D561E834A4A009BFC09 /* Build configuration list for PBXNativeTarget "blackjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74153D571E834A4A009BFC09 /* Debug */,
+				74153D581E834A4A009BFC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74153D361E834A4A009BFC09 /* Project object */;
+}
